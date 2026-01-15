@@ -3,6 +3,12 @@ import heroImage from "@/assets/heroimage.png";
 const HeroSection = () => {
   return (
     <section className="w-full bg-white">
+
+      {/* 🔹 SEO H1 – Invisible on UI */}
+      <h1 className="sr-only">
+        REACH Furniture PDS – Furniture Pattern Design Software
+      </h1>
+
       {/* Hero Wrapper */}
       <div
         className="
@@ -25,8 +31,6 @@ const HeroSection = () => {
             backgroundRepeat: "no-repeat",
             backgroundPosition: "center",
             backgroundSize: "contain",
-
-            /* ✅ THIS is the correct part */
             filter: "brightness(0.95) contrast(0.9)",
           }}
         />
