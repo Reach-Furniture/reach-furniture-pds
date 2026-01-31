@@ -31,7 +31,7 @@ const Footer = () => {
               <span className="text-primary">REACH</span> Furniture PDS
             </Link>
             <p className="text-gray-300 max-w-md">
-              The REACH Furniture PDS
+              Best In Class Furniture Pattern Design Software
             </p>
 
 
